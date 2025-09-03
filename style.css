@@ -1,19 +1,12 @@
-/* ===== Estilo da seção Lei ===== */
-#lei {
-  font-family: "Georgia", serif; /* fonte estilo documento */
-  background: #1e293b; /* mesmo tom slate-800 */
-  border: 2px solid rgba(96, 165, 250, 0.3); /* borda azul suave */
-  padding: 3rem 2rem;
-  border-radius: 1rem;
-  line-height: 1.8;
+html {
+  scroll-behavior: smooth;
 }
 
-#lei h2 {
-  font-family: "Merriweather", serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+.glass {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(10px);
 }
 
-#lei p {
-  text-align: justify;
+.section {
+  padding: 4rem 1rem;
 }
